@@ -8,6 +8,7 @@ const colorPicker = document.getElementById('color-picker');
 const colorPreview = document.getElementById('color-preview');
 const hexCode = document.getElementById('hex-code');
 
+
 function updateColor() {
     const rojo = parseInt(rojoNumInput.value);
     const verde = parseInt(verdeNumInput.value);
